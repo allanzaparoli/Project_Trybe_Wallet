@@ -1,11 +1,12 @@
 // const initialState = {
-//   login: { email: '', senha: '' },
+//   email: '',
+//   senha: '',
 // };
 
 // export default function customerReducer(state = initialState, { type, payload }) {
 //   switch (type) {
-//   case 'LOGIN':
-//     return { ...state, login: payload };
+//   case 'EMAIL':
+//     return { ...state, email: payload };
 //   default:
 //     return state;
 //   }
