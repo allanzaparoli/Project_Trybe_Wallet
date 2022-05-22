@@ -17,8 +17,6 @@ export default function DataWallet() {
     console.log(currencies);
   }, [currencies]);
   return (
-    <div>
-      <h3>SearchWallet</h3>
-    </div>
+    <div />
   );
 }
