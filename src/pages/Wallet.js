@@ -2,6 +2,7 @@ import React from 'react';
 import Expenses from '../components/Expenses';
 import Header from '../components/Header';
 import SearchWallet from '../components/SearchWallet';
+import Table from '../components/Table';
 import '../styles/Wallet.css';
 
 export default function Wallet() {
@@ -11,6 +12,7 @@ export default function Wallet() {
       <Header />
       <SearchWallet />
       <Expenses />
+      <Table />
     </div>
   );
 }
