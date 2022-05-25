@@ -12,6 +12,7 @@ export default function DataWallet() {
         dispatch({ type: 'CURRENCIES', payload: Object.keys(result) });
       })
       .catch((error) => console.log(error));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   useEffect(() => {
     console.log(currencies);

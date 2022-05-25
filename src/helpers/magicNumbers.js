@@ -1,3 +1,3 @@
 export const MIN_SENHA = 6;
 
-export default MIN_SENHA;
+export const ID_INICIAL = -1;
