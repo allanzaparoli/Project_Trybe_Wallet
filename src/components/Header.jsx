@@ -1,6 +1,5 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-// import fetchWallet from '../services/api';
 
 export default function Header() {
   const takeEmail = useSelector(({ user }) => user);
