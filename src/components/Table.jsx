@@ -12,7 +12,7 @@ export default function Table() {
         <thead>
           <tr>
             <th>Descrição</th>
-            <th>Categoria</th>
+            <th>Tag</th>
             <th>Método de pagamento</th>
             <th>Valor</th>
             <th>Moeda</th>
@@ -31,14 +31,13 @@ export default function Table() {
                 <td>{ element.tag }</td>
                 <td>{ element.method }</td>
                 <td>{ (+element.value).toFixed(2) }</td>
-                <td>{ element.exchangeRates[element.currency].name}</td>
-                <td>{ (+element.exchangeRates[element.currency].ask).toFixed(2)}</td>
+                <td>{ element.exchangeRates[element.currency].name }</td>
+                <td>{ (+element.exchangeRates[element.currency].ask).toFixed(2) }</td>
                 <td>
                   {
                     ((element.exchangeRates[element.currency].ask)
                     * (element.value)).toFixed(2)
                   }
-
                 </td>
                 <td>Real</td>
                 <td>Editar/Excluir</td>
